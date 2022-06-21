@@ -64,7 +64,7 @@ The Power BI Dashboard consists of multiple tabs (pages) which contain filters a
 
 The **Introduction** tab is a landing page for the dashboard and will show you who performed the assessment for your organisation and the date of the assessment.
 
-![Introduction Tab Screenshot](images/Introduction.png)
+![Introduction Tab Screenshot](Images/Introduction.png)
 
 ### Assessment Results Tab
 
@@ -72,55 +72,55 @@ At the bottom of this tab, you will find buttons that can be used to navigate to
 
 On the Assessment Results tab, you will find details of the results from the SOA:
 
-![Assessment Results Tab Screenshot](images/AssessmentResults.png)
+![Assessment Results Tab Screenshot](Images/AssessmentResults.png)
 
 The tab has three main sections:
 
 * **Overall results:** The chart on the top left provides a view of total passing/failing controls from the assessment. The chart on the right shows the results by workload and broken down by recommendation level.  (These charts will not update when you use the filters, so they have a grey background to help differentiate these charts from the detailed results.)
 
-![Assessment Results Static Chart Screenshot](images/AssessmentResults-StaticResults.png)
+![Assessment Results Static Chart Screenshot](Images/AssessmentResults-StaticResults.png)
 
 * **Results filters:** These filters can be used to show different views in the Detailed Findings section of this tab. For example, if you want to identify which controls are aligning with the Protect function/pillar, you would click Protect under Function to show only those details in the Detailed Findings section.
 
-![Assessment Results Filter Screenshot](images/AssessmentResults-Filter.png)
+![Assessment Results Filter Screenshot](Images/AssessmentResults-Filter.png)
 
 * **Detailed Findings:** This section will show results based on the current filter.
 
-![Assessment Results Details Screenshot](images/AssessmentResults-Details.png)
+![Assessment Results Details Screenshot](Images/AssessmentResults-Details.png)
 
 ### Remediation Progress Tab
 
 On the **Remediation Progress** tab, you can track your remediation efforts as well as plan future remediation activities:
 
-![Remediation Progress Overview Screenshot](images/RemediationProgress.png)
+![Remediation Progress Overview Screenshot](Images/RemediationProgress.png)
 
 The bar charts across the top row display the number of controls that have not been remediated (aka Findings), broken down by different categories: Cybersecurity Function, User Impact, Cost or Remediation Effort:
 
-![Remediation Progress Bar Charts Screenshot](images/RemediationProgress-BarFilters.png)
+![Remediation Progress Bar Charts Screenshot](Images/RemediationProgress-BarFilters.png)
 
 In the top right corner, you will see the number of controls projected to pass a subsequent SOA, represented by a gauge chart:
 
-![Remediation Progress Guage Chart Screenshot](images/RemediationProgress-StaticGuage.png)
+![Remediation Progress Guage Chart Screenshot](Images/RemediationProgress-StaticGuage.png)
 
 At the bottom-right corner of the screen, you will a see a chart showing the number of controls pending remediation, broken down by recommendation level and technology workload:
 
-![Remediation Progress Workload Chart Screenshot](images/RemediationProgress-Workloads.png)
+![Remediation Progress Workload Chart Screenshot](Images/RemediationProgress-Workloads.png)
 
 Below the bar charts at the top are three bookmarks allowing you to navigate between different views showing the remaining controls to remediate or remediation progress. (Remember to use Ctrl+click to activate a bookmark in Power BI Desktop.)
 
-![Remediation Progress Bookmark Screenshot](images/RemediationProgress-Bookmarks.png)
+![Remediation Progress Bookmark Screenshot](Images/RemediationProgress-Bookmarks.png)
 
 The Findings by Control bookmark will display a table of the control details that have yet to be remediated:
 
-![Remediation Progress Findings by Control Screenshot](images/RemediationProgress-ControlsPending.png)
+![Remediation Progress Findings by Control Screenshot](Images/RemediationProgress-ControlsPending.png)
 
 The **Overall Remediation Progress** bookmark will display a chart showing how many items have been remediated over time (based on controls marked as remediated, as detailed in Tracking Remediation Progress section of this document):
 
-![Remediation Progress Overall progress Screenshot](images/RemediationProgress-RemediationProgress.png)
+![Remediation Progress Overall progress Screenshot](Images/RemediationProgress-RemediationProgress.png)
 
 The **Remediation Progress by Recommendation Level** bookmark will display a chart similar to the Overall Remediation Progress chat but broken down by recommendation level:
 
-![Remediation Progress Recomendation Level progress Screenshot](images/RemediationProgress-RemediationProgressByLevel.png)
+![Remediation Progress Recomendation Level progress Screenshot](Images/RemediationProgress-RemediationProgressByLevel.png)
 
 You can click on any bar in the top-row bar charts or any recommendation level in any column in the column chart and all the charts (except the gauge chart of project pass count) and table of controls will be filtered accordingly.
 
@@ -142,8 +142,8 @@ This will refresh the data from the updated RPS and the now-remediated controls 
 
 * Overall Remediation Progress
 
-![Remediation Progress Overall Progress Updated Screenshot](images/RemediationProgress-RemediationProgressUpdated.png)
+![Remediation Progress Overall Progress Updated Screenshot](Images/RemediationProgress-RemediationProgressUpdated.png)
  
 * Remediation Progress by Recommendation Level
 
-![Remediation Progress Recommendation Level Progress Updated Screenshot](images/RemediationProgress-RemediationProgressByLevelUpdated.png)
+![Remediation Progress Recommendation Level Progress Updated Screenshot](Images/RemediationProgress-RemediationProgressByLevelUpdated.png)
