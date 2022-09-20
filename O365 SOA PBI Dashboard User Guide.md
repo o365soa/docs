@@ -11,7 +11,7 @@ This guide describes the steps required to deploy the Office 365: Security Optim
 ## Requirements
 
 * Power BI Desktop [Get Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop)
-* SOA Power BI Dashboard template (O365 Security PBI Dashboard.pbit)
+* SOA Power BI Dashboard template (O365 Security Dashboard.pbit)
 * SOA Remediation Planning Spreadsheet (RPS) workbook provided from a SOA engagement in April 2022 or later, stored in a SharePoint Online or OneDrive for Business document library
 
 ## Create Power BI Dashboard using template
@@ -130,7 +130,7 @@ The Remediation Progress tab can be used to track remediation progress over time
 
 **Notes:**
 * Do not change the Result field to Pass.
-* Do not add any columns between A-V, inclusive.  You may use columns W-Z for any usage you want, but no more, as column AA is used internally by the dashboard.
+* For engagements prior to October 2022, do not add any columns between A-V, inclusive.  You may use columns W-Z for any usage you want, but no more, as column AA is used internally by the dashboard. (For engagements from October 2022 forward, you can insert columns as desired without impacting the dashboard.)
 
 To update the charts on the **Remediation Progress** tab in the Power BI dashboard, ensure that the RPS file that is being used to generate the content has been saved. Because the Power BI dashboard represents a static copy of the data, you will need to perform the following steps:
 
