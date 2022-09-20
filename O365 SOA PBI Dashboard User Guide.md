@@ -30,7 +30,7 @@ If this is your first-time launching Power BI Desktop, you will need to sign in 
 
 1.	At the Power BI Desktop startup screen, click **Open other reports**.
 2.	Change the file extension drop-down to **Power BI template files (*.pbit)**.
-3.	Navigate to and select the template file (O365 Security PBI Dashboard.pbit) provided by the SOA engineer and click **Open**.
+3.	Navigate to and select the template file (O365 Security Dashboard.pbit) provided by the SOA engineer and click **Open**.
 
     ***Note:** If you receive a message saying “Unable to open document. The queries were authored with a newer version of Power BI Desktop and may not work with your version.”, it is recommended that you update to the latest version of Power BI Desktop, though you will still be able to continue with the current version.*
 
